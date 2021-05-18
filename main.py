@@ -7,7 +7,7 @@ def main():
 	print("Building model..........................")
 	Model = Model_sign_language()
 	Model.load_weights('weight_model')
-	print("Model load weight success !!!!")
+	print("Model loaded weight successfully !!!!")
 
 	vid = cv2.VideoCapture(0)
 	time_before = time.perf_counter()
